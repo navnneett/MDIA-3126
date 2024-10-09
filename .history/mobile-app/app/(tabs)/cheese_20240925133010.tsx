@@ -3,7 +3,7 @@ import { Link } from 'expo-router';
 
 export default function Page() {
   return (
-    <View style={styles.pageTitle}>
+    <View style={styles.cheese}>
       <Text className="border-blue-700 border-2" >This is a page about cheese. 🧀</Text>
       <Link href="/" asChild>
         <Pressable>
